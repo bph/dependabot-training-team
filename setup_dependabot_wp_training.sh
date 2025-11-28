@@ -85,9 +85,6 @@ updates:
       - "$GH_USER"
     reviewers:
       - "$GH_USER"
-    labels:
-      - "dependencies"
-      - "automated"
     open-pull-requests-limit: 10
 EOF
     ;;
@@ -105,9 +102,6 @@ updates:
       interval: "weekly"        # or "daily", "monthly"
     assignees:
       - "$GH_USER"
-    labels:
-      - "dependencies"
-      - "automated"
     open-pull-requests-limit: 10
 EOF
     ;;
@@ -125,9 +119,6 @@ updates:
       interval: "weekly"
     assignees:
       - "$GH_USER"
-    labels:
-      - "dependencies"
-      - "automated"
     open-pull-requests-limit: 10
 
   - package-ecosystem: "npm"
@@ -136,9 +127,6 @@ updates:
       interval: "weekly"
     assignees:
       - "$GH_USER"
-    labels:
-      - "dependencies"
-      - "automated"
     open-pull-requests-limit: 10
 EOF
     ;;
