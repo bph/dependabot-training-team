@@ -6,10 +6,12 @@ Note: it only handles composer.json or package.json in repos root directory.
 
 How to use it? 
 Download it to your computer
-Before you use it fork the particular repo to your local directory. 
+Before you use it fork the particular repo to your local directory.
+For my set up I put the script in one directory and then fork the particular repo into a sister folder 
+so the value for the repo directory is always "../{repo directory}"
 
 ## Prompts for:
-- repo directory
+- repo directory 
 - GitHub username
 - project type (Composer, npm, or both)
 ## Creates:
@@ -17,3 +19,4 @@ Before you use it fork the particular repo to your local directory.
 - .github/dependabot.yml (3 variants: Composer, npm, or both)
 - .github/workflows/dependabot-auto-approve.yml
 - .github/workflows/dependabot-auto-merge.yml
+
